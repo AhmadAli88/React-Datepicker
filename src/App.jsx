@@ -10,7 +10,7 @@ import TimeSelection from './components/Time Selection/TimeSelection';
 
 function App() {
   return (
-    <div>
+    <div style={{display: 'flex', gap: '30px', flexDirection: 'column'}}>
       <MyDatepicker />
       <RangeDate/>
       <TimeSelection/>
